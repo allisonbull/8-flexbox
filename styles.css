@@ -1,0 +1,24 @@
+html {
+    background-color: rgb(196, 158, 204);
+}
+
+.site-links {
+    background-color:rgb(75, 125, 80);
+    list-style-type: none;
+    padding: 0;
+display: flex;
+gap: 10px;
+}
+
+.site-link {
+    background-color:rgb(119, 148, 82);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.site-link:hover {
+background-color: rgb(107, 162, 88);
+
+}
