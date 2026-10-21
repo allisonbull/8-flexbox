@@ -1,24 +1,53 @@
 html {
     background-color: rgb(196, 158, 204);
+font-family: overpass;
+}
+
+body {
+    margin: 0;
+}
+
+.site-header {
+    background-color:rgb(240, 184, 203);
+    padding: 10px;
+}
+
+
+.sidebar {
+    background-color: rgb(157, 183, 110);
+    padding: 10px;
+    flex: 0 0 200px;
+}
+
+.site-main {
+    background-color: rgb(250, 253, 182);
+    padding: 10px;
+}
+
+.site-footer {
+    background-color: rgb(140, 107, 148);
+    padding: 10px;
+}
+
+.two-col {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.wrapper {
+    background-color: antiquewhite;
+    max-width: 700px;
+    margin: 30px auto 0 auto;
 }
 
 .site-links {
-    background-color:rgb(75, 125, 80);
     list-style-type: none;
-    padding: 0;
-display: flex;
-gap: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
 }
 
-.site-link {
-    background-color:rgb(119, 148, 82);
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.site-link:hover {
-background-color: rgb(107, 162, 88);
-
+.fish-links {
+ 
 }
